@@ -1,0 +1,27 @@
+{
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "dotenv": "^16.0.3",
+    "hardhat": "^2.14.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.0"
+  },
+  "name": "ddc_erc",
+  "description": "This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "hh:cp": "npx hardhat compile",
+    "hh:t": "npx hardhat test",
+    "hh:dp": "npx hardhat run scripts/deploy.ts",
+    "hh:n": "npx hardhat node",
+    "hh:nw": "npx hardhat run scripts/deploy.ts --network six_testnet"
+  },
+  "author": "",
+  "license": "ISC"
+}
